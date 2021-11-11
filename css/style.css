@@ -1,0 +1,94 @@
+:root {
+    --orange: #FF7324;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+div.left-menu>a {
+    margin-right: 4em;
+}
+
+div.left-menu>a:first-child {
+    color: var(--orange);
+}
+
+section {
+    display: flex;
+    height: calc(100% - 4em);
+}
+
+div.description {
+    /* margin-bottom: 2em; */
+    margin-left: 4em;
+    margin-right: 2em;
+    display: flex;
+    /* height: 100%; */
+    /* margin-top: 50%;
+    margin-bottom: 50%; */
+    width: 40vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.description h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+div.description h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+div.description p {
+    font-size: 1em;
+    margin-bottom: 3em;
+}
+
+div.description a {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+div.description-logo {
+    /* position: sticky;
+    float: right;
+    bottom: 10px;
+    right: 10px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+div.description-logo>img {
+    width: 200px;
+}
